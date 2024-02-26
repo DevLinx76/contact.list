@@ -40,3 +40,63 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+/* Path: src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #242323;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #02fbffd8;
+  color: rgb(42, 42, 42);
+}
+
+tr:nth-child(even) {
+  background-color: #383636;
+}
+
+tr:hover {
+  background-color: #000000;
+}
+
+button {
+  background-color: #1b1b1b;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #00ddff;
+  color: rgb(0, 0, 0);
+}
+
+.contact-details {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-details h1 {
+  color: #333;
+}
